@@ -1,5 +1,5 @@
 # Aviation Analytics: Elevating Airline Profitability Through Data-Driven Insights
-
+![Minimal Aesthetic Manali Tourism YouTube thumbnail](https://github.com/user-attachments/assets/64e23673-6bdf-4ffd-89b1-067e7763ed3e)
 ## Project Introduction
 
 From runway to revenue, and turbulence to triumph, This project harnesses the power of big data analytics to transform underperforming flights. By navigating the currents of passenger demand and addressing key airline challenges, It aims to propel aviation success, chart new heights in occupancy rates, and elevate customer satisfaction.
@@ -23,8 +23,9 @@ From booking to arrival, we're focused on creating a seamless and enjoyable jour
 Through data-driven analysis, we'll identify and address factors contributing to underperforming flights. By improving these routes, we aim to boost overall airline profitability and operational efficiency.
 
 ## Project Details
-
+![slide_3](https://github.com/user-attachments/assets/568e624c-ffe8-4aea-8e06-a14621ecb14a)
 ### Data Sources and Technologies Used
+
 
 This project utilizes a SQLite database containing comprehensive airline data. To analyze this data, I've leveraged several powerful Python libraries within a Jupyter Notebook environment:
 
@@ -84,18 +85,22 @@ tickets = pd.read_sql_query("select * from tickets", connection)
 #### Basic Analysis:> Initial Insights: Understanding Aircraft and Revenue Trends
 
 The core data analysis provides insights into several key areas: the number of aircraft with over 100 seats, the trends in ticket sales and revenue generation over time, and the average fare for each aircraft under different pricing scenarios. These insights will be instrumental in devising strategies to boost occupancy rates and refine pricing models for each aircraft. Table 1 presents the aircraft with more than 100 seats, along with their specific seat counts.
-                                                [Table 1]
+                                               
+ ![table 1](https://github.com/user-attachments/assets/76b65adb-5109-4bdb-87f4-b84af8a44e11)
 
 #### Visualization and Analysis:> Visual Trends: Ticket Reservations and Revenue
 
 To better understand the trend in ticket reservations and the corresponding revenue, we used a line chart visualization. The chart reveals a steady increase in ticket purchases from June 22nd to July 7th, followed by a stable pattern from July 8th until August, with a notable peak on one day when the most tickets were sold. It's important to highlight that the company's revenue from these bookings is directly linked to the number of tickets sold. Consequently, the overall revenue trend mirrors the pattern of ticket purchases over the analyzed period. These findings indicate that further investigation into the factors behind the peak in ticket bookings could help boost overall revenue and optimize operational strategies.
-                                                  [figure 1]
-                                                  [figure 2]
+
+![figure 1](https://github.com/user-attachments/assets/e2d795ef-7391-4098-b3cc-64c8ad6e6016)
+                                                
+![figure 2](https://github.com/user-attachments/assets/de2ef9bf-99e3-4b98-be66-2f0d34c6cbe7)
 
 #### Expense Analysis:> Cost Comparisons: Ticket Pricing Across Classes
 
 After calculating the typical expenses for various ticket conditions for each aircraft, we created a bar graph to visually compare the data. Figure 3 displays data for three fare categories: business, economy, and comfort. Notably, only the 773 aircraft offer the comfort class, whereas the CN1 and CR2 aircraft only offer the economy class. Across all aircraft, business class costs are consistently higher than those for economy class under various pricing scenarios. This trend is evident regardless of the fare conditions for each aircraft.
-                                                  [figure 3]
+                                                
+![figure 3](https://github.com/user-attachments/assets/61065575-af39-43c8-9b47-ecd172f2555e)
 
 #### Occupancy Rate Analysis:> Seat Utilization: Assessing Occupancy Rates
 
@@ -104,7 +109,8 @@ To maximize profitability, airlines need a thorough analysis of their income str
 Figure 4 shows each aircraft's total income, total tickets sold, and average revenue per ticket. The aircraft with the highest overall income is the SU9, which also has the lowest prices for both business and economy classes, likely attracting more passengers due to its affordability. Conversely, the CN1 generates the lowest overall income, possibly due to offering only economy class at the lowest prices or having fewer amenities or subpar conditions.
 
 Another crucial metric is the average occupancy per aircraft. This measure allows airlines to evaluate seat utilization and identify opportunities to increase occupancy rates. Higher occupancy rates can reduce operating costs associated with empty seats and boost revenue and profitability. Factors influencing occupancy rates include customer satisfaction, scheduling, and pricing policies. Figure 5 shows the average number of booked seats per aircraft. The occupancy rate is calculated by dividing the number of reserved seats by the total number of seats. A higher occupancy rate means more passengers have reserved seats on the flight.
-                                                  [figure 4]
+                            
+![figure 4](https://github.com/user-attachments/assets/36fa1748-421d-4384-a102-161d76e772a1)
 
 #### Exploring the Benefits of Increasing Occupancy Rates:> Revenue Potential: Impact of Enhanced Occupancy Rates
 
