@@ -1,8 +1,9 @@
 # Aviation Analytics: Elevating Airline Profitability Through Data-Driven Insights
-![Minimal Aesthetic Manali Tourism YouTube thumbnail](https://github.com/user-attachments/assets/64e23673-6bdf-4ffd-89b1-067e7763ed3e)
+![Aviation Thumbnail](https://github.com/user-attachments/assets/d9e5a2b8-a136-435f-b879-8a61c1f70169)
 ## Project Introduction
 
 From runway to revenue, and turbulence to triumph, This project harnesses the power of big data analytics to transform underperforming flights. By navigating the currents of passenger demand and addressing key airline challenges, It aims to propel aviation success, chart new heights in occupancy rates, and elevate customer satisfaction.
+
 
 Through this data-driven approach, It break through the clouds of uncertainty, paving the way for optimized airline operations and enhanced profitability. This repository showcases my work in leveraging advanced analytics to revolutionize airline performance.
 
